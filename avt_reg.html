@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <title>bookish buddy</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="menu">
+                <div class="block_with_logo">
+                    <a href="index.html"><img src="./img/logo__dark.svg" alt="logo_name" class="logo"></a>
+                </div>
+                <nav>
+                    <ul class="ul__nav">
+                        <li><a href="index.html#about">О нас</a></li>
+                        <li><a href="index.html#questions">Вопросы</a></li>
+                        <li><a href="index.html#reviews">Отзывы</a></li>
+                        <li><a href="index.html#contacts">Контакты</a></li>
+                        <li><a href="avt_reg.html">Личный кабинет</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main__avt__reg">
+        <section>
+            <div class="container">
+                <div class="card__tab">
+
+                    <div class="tab">
+                        <input checked id="tab-reg" name="tab-btn" type="radio" value="">
+                        <label for="tab-reg">Регистрация</label>
+                        <input id="tab-avt" name="tab-btn" type="radio" value="">
+                        <label for="tab-avt">Авторизация</label>
+                        <div class="tab-content" id="content-reg">
+                            <form action="#" method="post">
+                                <input type="text" placeholder="ФИО" class="reg_input" required></input>
+                                <input type="number" placeholder="Номер телефона" class="reg_input" required></input>
+                                <input type="password" placeholder="Пароль" minlength="8" class="reg_input"
+                                    required></input>
+                                <input type="password" placeholder="Повтор пароля" minlength="8" class="reg_input"
+                                    required></input>
+                                <button type="submit" class="btn__tab">Зарегистрироваться</button>
+                        </div>
+                        <div class="tab-content" id="content-avt">
+                            <input type="number" placeholder="Номер телефона" class="reg_input" required></input>
+                            <input type="password" placeholder="Пароль" minlength="8" class="reg_input"
+                                required></input>
+                            <button type="submit" class="btn__tab">Войти</button>
+                            <a href="choice.html">hhhhhhhhhhhhhhh</a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer__slide">
+                <div class="menu">
+                    <div class="block_with_logo">
+                        <a href="index.html"><img src="./img/logo__white.svg" alt="logo_name" class="logo"></a>
+                    </div>
+                    <nav>
+                        <ul class="ul__nav">
+                            <li><a href="index.html#about" class="a__footer">О нас</a></li>
+                            <li><a href="index.html#questions" class="a__footer">Вопросы</a></li>
+                            <li><a href="index.html#reviews" class="a__footer">Отзывы</a></li>
+                            <li><a href="index.html#contacts" class="a__footer">Контакты</a></li>
+                            <li><a href="avt_reg.html" class="a__footer">Личный кабинет</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
