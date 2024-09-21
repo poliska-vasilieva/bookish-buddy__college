@@ -324,25 +324,34 @@ div ul li {
     cursor: pointer;
 }
 
-.box {
-    padding: 10px;
-    margin: 15px;
-    border-width: 3px;
-    float: left;
-    text-align: center;
-    width: 20%;
+.block-cover {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
 }
 
-.box img {
-    max-width: 100%;
-}
-
-.block-cover::after {
+/* .block-cover::after {
     content: " ";
     clear: both;
     display: block;
-}
+} */
 
 .hide {
     display: none;
+}
+
+.book__card {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    background-color: #F2E8D3;
+    padding: 40px;
+    border-radius: 40px;
+    max-width: 515px;
+}
+
+.img__book {
+    max-width: 215px;
 }
