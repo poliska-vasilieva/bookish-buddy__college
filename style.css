@@ -54,7 +54,7 @@ header {
 
 .a__header {
     font-size: 25px;
-    color: #171717;
+    color: #894334;
     font-weight: bold;
     text-decoration: none;
     margin-left: 20px;
@@ -123,6 +123,10 @@ button:hover {
     height: 210px;
     background-color: #B18B78;
     border-radius: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .block__about {

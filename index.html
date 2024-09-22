@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"> 
     <title>bookish buddy</title>
+    <link rel="icon" href="img/bookicon.svg">
 </head>
 
 <body>
@@ -20,11 +21,11 @@
                 </div>
                 <nav>
                     <ul class="ul__nav">
-                        <li><a href="#about">О нас</a></li>
-                        <li><a href="#questions">Вопросы</a></li>
-                        <li><a href="#reviews">Отзывы</a></li>
-                        <li><a href="#contacts">Контакты</a></li>
-                        <li><a href="avt_reg.html">Личный кабинет</a></li>
+                        <li><a href="#about" class="a__header ">О нас</a></li>
+                        <li><a href="#questions" class="a__header ">Вопросы</a></li>
+                        <li><a href="#reviews" class="a__header ">Отзывы</a></li>
+                        <li><a href="#contacts" class="a__header ">Контакты</a></li>
+                        <li><a href="avt_reg.html" class="a__header ">Личный кабинет</a></li>
                     </ul>
                 </nav>
             </div>
@@ -52,23 +53,23 @@
                 <div class="blocks__about">
 
                     <div class="block__about">
-                        <div class="block__about__img"><img src="./img/" alt=""></div>
+                        <div class="block__about__img"><img src="./img/team-building 1.svg" alt=""></div>
                         <div class="block__about__text">
-                            <p>Lorem ipsum dolor sit amet consectetur</p>
+                            <p>Приятная беседа и атмосфера</p>
                         </div>
                     </div>
 
                     <div class="block__about">
-                        <div class="block__about__img"><img src="./img/" alt=""></div>
+                        <div class="block__about__img"><img src="./img/speech-bubble 1.svg" alt=""></div>
                         <div class="block__about__text">
-                            <p>Lorem ipsum dolor sit amet consectetur</p>
+                            <p>Общение о прочитанном</p>
                         </div>
                     </div>
 
                     <div class="block__about">
-                        <div class="block__about__img"><img src="./img/" alt=""></div>
+                        <div class="block__about__img"><img src="./img/search-user 1.svg" alt=""></div>
                         <div class="block__about__text">
-                            <p>Lorem ipsum dolor sit amet consectetur</p>
+                            <p>Поиск единомышленников</p>
                         </div>
                     </div>
                 </div>
@@ -83,12 +84,10 @@
                 <div class="accordion" id="accordion-1" style="max-width: 800px; margin: 0 auto;">
                     <div class="accordion__item accordion__item_show">
                         <div class="accordion__header">
-                            По какому принципу выбираются анкеты для общения?
+                            По какому принципу строится общение?
                         </div>
                         <div class="accordion__body">
-                            Пользователи в личном кабинете указывают такие предпочтения, как любимые авторы, жанры,
-                            произведения, а затем в поиске выбирают те параметры, которые являются важными в
-                            собеседнике. Система благодарая фильтрации данных подбирает самые лучшие варианты.
+                            С помощью алгоритмов фильтрации книг по параметрам, пользователи могут найти то самое произведений и присоединиться к беседе, обсудить прочитанное и вступить в дискуссию.
                         </div>
                     </div>
                     <div class="accordion__item">
@@ -102,13 +101,10 @@
                     </div>
                     <div class="accordion__item">
                         <div class="accordion__header">
-                            Вопрос 3
+                            Что нужно указать в личном кабинете?
                         </div>
                         <div class="accordion__body">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid repellat dicta vel
-                            sapiente laudantium minima
-                            porro voluptatem nam, alias aliquam qui quasi eveniet odit fugiat eius aspernatur nesciunt
-                            veniam expedita!
+                            Помимо таких данных, как имя и возраст, пользователи могут указать своих любимых авторов и книги, чтобы сформировать у других людей представление о своих литературных вкусах.
                         </div>
                     </div>
                 </div>
@@ -145,7 +141,7 @@
                 <h2 class="title">Контакты</h2>
                 <div class="block__contacts">
                     <div class="contacts__text">
-                        <ul>
+                        <ul style="display: flex; flex-direction: column;">
                             <li><b>Генеральный директор:</b> Рубинштейн В. И.</li>
                             <li><b>Юридический адрес:</b> Санкт-Петербург, ул. Гельсингфорсская, д. 3, литЗ, оф. 327
                             </li>
