@@ -253,7 +253,7 @@ footer {
 }
 
 .card__tab {
-    width: 700px;
+    max-width: 700px;
 }
 
 input, select {
@@ -474,6 +474,10 @@ textarea {
     .review {
         max-width: 80%;
     }
+
+    .book__about {
+        font-size: 21px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -509,6 +513,10 @@ textarea {
         align-items: center;
         gap: 30px;
     }
+
+    .title {
+        font-style: 37px;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -519,6 +527,10 @@ textarea {
     
     .a__header, .a__footer {
         font-size: 15px;
+    }
+
+    .title {
+        font-style: 34px;
     }
 
     .logo {
@@ -567,5 +579,19 @@ textarea {
 
     .li__contact {
         font-size: 18px;
+    }
+
+    .profil {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .book__card {
+        flex-direction: column;
+    }
+
+    div ul li {
+        font-size: 20px;
     }
 }
